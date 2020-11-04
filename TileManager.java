@@ -77,7 +77,6 @@ public class TileManager{
             int randIndex = (int) (Math.random() * (list.size()));
             tempArray.add(list.get(randIndex));
             list.remove(randIndex);
-            System.out.println(list.size() + ", " + tempArray.size());
         }
         for(Tile j : tempArray){
             int xLimit = TileMain.WIDTH - j.getWidth();
